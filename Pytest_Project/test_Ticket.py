@@ -8,7 +8,7 @@ class TestTicket:
     url="https://www.dummyticket.com/dummy-ticket-for-visa-application/"
     firstName="Zach"
     lastName="Philips"
-    email="Bababooey1237@yahoo.com"
+    email="SeleniumTest10001@yahoo.com"
 
 
 
@@ -25,13 +25,13 @@ class TestTicket:
         self.tk.setMonthYear()
         self.tk.setDate()
         self.tk.clickGender()
-        self.tk.setFromCity("China")
+        self.tk.setFromCity("New York City")
         self.tk.setToCity("Los Angeles")
         self.tk.clickDepartDate()
         self.tk.setDepartMon()
         self.tk.setDepartYear()
         self.tk.setDepartDate()
-        self.tk.setPhoneNum("822-555-8283")
+        self.tk.setPhoneNum("822-555-5555")
         self.tk.setEmailAdd(self.email)
         self.tk.setAddress("421 Pinecone St")
         self.tk.setCity("Moscow")
