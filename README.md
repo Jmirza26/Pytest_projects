@@ -1,31 +1,62 @@
 # Pytest Selenium Automation Projects
 
-Overview
+## 📌 Overview
 
-This repository contains two Selenium-based projects using the Pytest framework. Each project demonstrates different automation scenarios:
+This repository contains two Selenium automation projects built using **Python**, **Selenium WebDriver**, and the **Pytest** framework.  
+Each project demonstrates real-world automated testing scenarios, focusing on user workflows, validation, and reusable test design.
 
-Simple Ticket Booking Page Automation:
-Automates interactions on a dummy ticket booking page, filling in textboxes, selecting options, and handling checkboxes.
+---
 
-E-Commerce Website Automation:
-A more advanced automation project that covers logging into a website, adding an item to the cart, validating page titles, and verifying information from the homepage.
+## 🎟 Project 1: Simple Ticket Booking Automation
 
-Project 1: Simple Ticket Booking Automation
+### 🔍 Description
 
-Description
-This project navigates to a dummy ticket booking page and automates the following actions:
+This project automates interactions on a dummy ticket booking page, including:
 
-Filling out textboxes (name, email, etc.).
-Selecting dropdown options.
-Checking off checkboxes (terms, newsletters, etc.).
+- Filling out form fields (name, email, etc.)
+- Selecting dropdown options
+- Handling checkboxes (terms, newsletters, preferences)
 
-Project 2: E-Commerce Website Automation
+### 🛠 Skills Demonstrated
 
-Description
-This project simulates user interactions on an e-commerce website and includes test cases for:
+- Selenium WebDriver automation  
+- Pytest test case execution  
+- Web form interaction  
+- UI validation & assertions  
 
-Logging into the website.
-Clicking on an item and adding it to the cart.
-Verifying the page title and order message.
-Validating homepage information and retrieving the item's name.
+---
 
+## 🛒 Project 2: E-Commerce Website Automation
+
+### 🔍 Description
+
+This project simulates end-to-end user behavior on an e-commerce site and includes test cases for:
+
+- Logging into the application  
+- Selecting products and adding them to the cart  
+- Verifying page titles and order confirmation messages  
+- Extracting and validating homepage and product data  
+
+### 🛠 Skills Demonstrated
+
+- End-to-end test automation  
+- Workflow simulation  
+- Data verification & assertions  
+- Test framework structuring  
+
+---
+
+## ⚙️ Tech Stack
+
+- Python  
+- Selenium WebDriver  
+- Pytest  
+- Git & GitHub  
+
+---
+
+## 🚀 How to Run the Tests
+
+1. Install dependencies:
+   ```bash
+   pip install selenium pytest
